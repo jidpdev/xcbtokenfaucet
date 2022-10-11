@@ -139,15 +139,15 @@ contract XCBRewards {
             uint256 _rewardMax, 
             uint256 _rewardWaitingTime,
             uint256 _rewardAllowed,
-			uint256 _rewardTimelock
+	    uint256 _rewardTimelock
         ) public onlyOwner {
         rewardMin = _rewardMin;
         rewardMax = _rewardMax;
         rewardWaitingTime = _rewardWaitingTime;
         rewardAllowed = _rewardAllowed;
-		rewardTimelock = _rewardTimelock;
+	rewardTimelock = _rewardTimelock;
         rewardCount = 0;
-		rewardLastClaimed = 0;
+	rewardLastClaimed = 0;
     } 
 
 }
